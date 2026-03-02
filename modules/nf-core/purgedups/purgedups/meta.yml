@@ -44,10 +44,10 @@ output:
           description: |
             Groovy Map containing sample information
             e.g. [ id:'test', single_end:false ]
-      - "*.dups.bed":
+      - "*.dups.bed.gz":
           type: file
           description: A bed file of sequences purged of false duplications
-          pattern: "*.bed"
+          pattern: "*.bed.gz"
           ontologies: []
   log:
     - - meta:

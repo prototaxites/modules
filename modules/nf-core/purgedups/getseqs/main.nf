@@ -24,10 +24,10 @@ process PURGEDUPS_GETSEQS {
     def prefix = task.ext.prefix ?: "${meta.id}"
     """
     get_seqs \\
-        $args \\
-        -e $bed \\
-        -p $prefix \\
-        $assembly
+        ${args} \\
+        ${bed} \\
+        -p ${prefix} \\
+        ${assembly}
     """
 
     stub:

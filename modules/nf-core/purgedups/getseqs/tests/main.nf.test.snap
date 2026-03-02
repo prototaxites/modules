@@ -7,7 +7,7 @@
                     {
                         "id": "test"
                     },
-                    "test.purged.fa:md5,70d0b87ecc04353767b1a713992f00fe"
+                    "test.purged.fa:md5,5593b561f5dac649dd02adbc1ff440e9"
                 ]
             ],
             {
@@ -24,7 +24,7 @@
             "nf-test": "0.9.3",
             "nextflow": "25.10.3"
         },
-        "timestamp": "2026-03-02T13:28:56.62278"
+        "timestamp": "2026-03-02T14:29:02.967042"
     },
     "sarcov2 - fasta - bed -- stub": {
         "content": [

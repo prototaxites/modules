@@ -27,9 +27,9 @@ process PURGEDUPS_HISTPLOT {
     def prefix = task.ext.prefix ?: "${meta.id}"
     """
     hist_plot.py \\
-        -c $cutoff \\
-        $args \\
-        $statfile \\
+        -c ${cutoff} \\
+        ${args} \\
+        ${statfile} \\
         ${prefix}.png
     """
 
