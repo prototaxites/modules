@@ -1,7 +1,7 @@
 process MITOHIFI_FINDMITOREFERENCE {
     tag "$species"
     label 'process_single'
-    secret secrets.NCBI_API_KEY ? "NCBI_API_KEY" : ""
+    secret secrets.NCBI_API_KEY ? ["NCBI_API_KEY"] : ""
 
     // NOTE: An optional NCBI API key can be supplied to MITOHIFI_FINDMITOREFERENCE.
     // This should be set using Nextflow's secrets functionality:
